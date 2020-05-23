@@ -1,0 +1,67 @@
+</div>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<b:if cond='data:blog.pageType!= &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+<div class='scrolling-menu'>
+<ul id='nav'>
+		<li class='current'><a href='#header-wrapper'>Home</a></li>
+		<li><a href='#section-2'>Services</a></li>
+  <li><a href='#section-3'>Works</a></li>
+<li><a href='#main-wrapper'>Posts</a></li>
+<li><a href='#section-5'>Quotes</a></li>
+<li><a href='#section-6'>About US</a></li>
+<li><a href='#section-7'>Contact US</a></li>
+	</ul><div class='menu-mobile2'/>
+  </div></b:if></b:if></b:if>
+
+<div class='tm-menu'>
+<div class='menu-wrap'>
+        <b:section class='menu' id='menu' maxwidgets='1' name='Main Menu' showaddelement='yes'>
+          <b:widget id='LinkList210' locked='true' title='Menu' type='LinkList' version='1'>
+            <b:widget-settings>
+              <b:widget-setting name='text-10'>Download This Template</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'>#</b:widget-setting>
+              <b:widget-setting name='link-2'>#</b:widget-setting>
+              <b:widget-setting name='link-12'>http://www.soratemplates.com/2017/08/basil-portfolio-blogger-templates.html</b:widget-setting>
+              <b:widget-setting name='link-0'>#</b:widget-setting>
+              <b:widget-setting name='link-11'>https://youtu.be/IdmRgeMXsxk</b:widget-setting>
+              <b:widget-setting name='link-10'>http://www.soratemplates.com/2017/08/basil-portfolio-blogger-templates.html</b:widget-setting>
+              <b:widget-setting name='text-9'>Documentation</b:widget-setting>
+              <b:widget-setting name='link-9'>http://www.sorabloggingtips.com/2017/08/how-to-setup-basil-blogger-template.html</b:widget-setting>
+              <b:widget-setting name='text-8'>Video Documentation</b:widget-setting>
+              <b:widget-setting name='link-7'>http://basil-soratemplates.blogspot.com/soratemplates</b:widget-setting>
+              <b:widget-setting name='link-8'>https://youtu.be/IdmRgeMXsxk</b:widget-setting>
+              <b:widget-setting name='link-5'>http://basil-soratemplates.blogspot.in/p/shortcodes.html</b:widget-setting>
+              <b:widget-setting name='link-6'>http://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
+              <b:widget-setting name='link-3'>#</b:widget-setting>
+              <b:widget-setting name='link-4'>#</b:widget-setting>
+              <b:widget-setting name='text-1'>_Multi DropDown</b:widget-setting>
+              <b:widget-setting name='text-0'>Features</b:widget-setting>
+              <b:widget-setting name='text-3'>__Dropdown 2</b:widget-setting>
+              <b:widget-setting name='text-2'>__Dropdown 1</b:widget-setting>
+              <b:widget-setting name='text-5'>_ShortCodes</b:widget-setting>
+              <b:widget-setting name='text-4'>__Dropdown 3</b:widget-setting>
+              <b:widget-setting name='text-7'>_Error Page</b:widget-setting>
+              <b:widget-setting name='text-6'>_Sitemap</b:widget-setting>
+              <b:widget-setting name='text-11'>_Video Doc</b:widget-setting>
+              <b:widget-setting name='text-12'>Download This Template</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+            <div class='widget-content'>
+              <ul itemscope='' itemtype='http://schema.org/SiteNavigationElement'> 
+                <li><a expr:href='data:blog.homepageUrl'>Home</a></li>
+                <b:loop values='data:links' var='link'>
+                  <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
+            </div>
+          </b:includable>
+          </b:widget>
+        </b:section>
+	<div class='menu-mobile'/>
+	
+  </div>
+      </div>
+  
+</div></div>
